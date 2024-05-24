@@ -24,7 +24,8 @@ function checkBotton( ) {
     if(kick== numberGerator){
         let wordAttemps = attempts>1 ? 'Attemps': 'Attemp'; 
         displayTextOnScreen('h1', `Congratulations, you got it!!! with ${attempts} ${wordAttemps}..`);
-        displayTextOnScreen('p', '');
+        displayTextOnScreen('p', 'You are finish the game of YUGO OLIVEIRA');
+        
         attempts=0;
         cleanField('input');
         let button = document.getElementById('reiniciar');
